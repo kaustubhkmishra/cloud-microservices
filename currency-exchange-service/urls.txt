@@ -26,3 +26,5 @@ http://localhost:8100/currency-conversion/from/USD/to/INR/quantity/10
 
 - http://localhost:8765/currency-conversion-new/from/USD/to/INR/quantity/10
 
+resilience4j.retry.instances.sample-api.maxAttempts=5 #NEW
+#resilience4j.retry.instances.sample-api.maxRetryAttempts=5 #OLD
